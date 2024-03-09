@@ -28,7 +28,7 @@
 
     --fonte-padrao: Arial, Verdana, sans-serif;
     --fonte-destaque: 'Bebas Neue', 'cursive';
-    --fonte-android: 'Android', 'cursive'; 
+    --fonte-android: 'Android', 'Bebas Neue',cursive; 
 }
 
 body{
@@ -68,7 +68,9 @@ main h2{
     font-family: var(--fonte-android);
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 7px;
+    padding: 2px 0;
     font-weight: normal;
+    letter-spacing: 5px;
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -129,6 +131,8 @@ main h1, h2{
     color: var(--cor5);
     font-family: var(--fonte-android);
     font-weight: normal;
+    font-size: 2.8em;
+    letter-spacing: 1px;
 }
 
 main img{
